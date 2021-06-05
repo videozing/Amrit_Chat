@@ -4,9 +4,9 @@ let server = require('http').Server(app);
 let io = require('socket.io')(server);
 let stream = require('./ws/stream');
 let path = require('path');
-let favicon = require('serve-favicon')
+//let favicon = require('serve-favicon')
 
-app.use(favicon(path.join(__dirname, '/src/favicon.ico')));
+//app.use(favicon(path.join(__dirname, '/src/favicon.ico')));
 app.use('/src/assets', express.static(path.join(__dirname, 'assets')));
 
 app.get('/', (req, res)=>{
