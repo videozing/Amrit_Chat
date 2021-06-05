@@ -5,6 +5,13 @@ let io = require('socket.io')(server);
 let stream = require('./ws/stream');
 let path = require('path');
 
+_favicon(req, res, function onNext (err) {
+    if (err) return done(err)
+ 
+    // continue to process the request here, etc.
+ 
+    res.statusCode = 404
+    res.end('oops')
 app.use('/src/assets', express.static(path.join(__dirname, 'assets')));
 
 app.get('/', (req, res)=>{
