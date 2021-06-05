@@ -4,7 +4,7 @@ let server = require('http').Server(app);
 let io = require('socket.io')(server);
 let stream = require('./ws/stream');
 let path = require('path');
-
+console.log ("Amrit");
 _favicon(req, res, function onNext (err) {
     if (err) return done(err)
  
