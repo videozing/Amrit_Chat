@@ -19,6 +19,10 @@
     "LiveStream",
     "Server"
   ],
-  "author": "Amir Sanni <amirsanni@gmail.com>",
+  "author": "Amrit Chand>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/videozing/Amrit_Chat"
+  },
+  "homepage": "https://github.com/videozing/Amrit_Chat"
   }
