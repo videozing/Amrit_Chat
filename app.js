@@ -8,7 +8,7 @@ let path = require('path');
 app.use('/src/assets', express.static(path.join(__dirname, 'assets')));
 
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname+'/src/index.html');
+    res.sendFile(__dirname+'/index.html');
 });
 
 
